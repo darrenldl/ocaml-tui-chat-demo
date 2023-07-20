@@ -1,0 +1,15 @@
+(executable
+ (flags     (-w "+a-4-9-29-37-40-42-44-48-50-32-30-70@8"))
+ (public_name chat)
+ (name chat)
+ (libraries chat_lib
+            cmdliner
+            eio
+            eio_main
+            mtime
+            timedesc
+            timedesc-tzlocal.unix
+            notty
+            notty.unix
+            nottui
+            ))
